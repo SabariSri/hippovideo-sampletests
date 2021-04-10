@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Overall Tests - Prospects Page]">
+  <test thread-count="5" name="Tests on Chrome browser(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.hippo.tests.ProspectTests">
+        <methods>
+          <include name="beforeEachTestMethod"/>
+          <include name="testCleanup"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="classCleanup"/>
+          <include name="testRemoveProspectAndVerifyTheAvailability"/>
+          <include name="testMethodCleanup"/>
+        </methods>
+      </class> <!-- com.hippo.tests.ProspectTests -->
+    </classes>
+  </test> <!-- Tests on Chrome browser(failed) -->
+  <test thread-count="5" name="Tests on Firefox browser(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.hippo.tests.ProspectTests">
+        <methods>
+          <include name="beforeEachTestMethod"/>
+          <include name="testCleanup"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="classCleanup"/>
+          <include name="testRemoveProspectAndVerifyTheAvailability"/>
+          <include name="testMethodCleanup"/>
+        </methods>
+      </class> <!-- com.hippo.tests.ProspectTests -->
+    </classes>
+  </test> <!-- Tests on Firefox browser(failed) -->
+</suite> <!-- Failed suite [Overall Tests - Prospects Page] -->

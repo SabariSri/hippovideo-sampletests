@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.hippo.tests.ProspectTests">
+        <methods>
+          <include name="testAddProspectAndVerifyTheAvailability"/>
+          <include name="testRemoveProspect"/>
+          <include name="beforeEachTestMethod"/>
+          <include name="testCleanup"/>
+          <include name="beforeTest"/>
+          <include name="testAddProspect"/>
+          <include name="beforeClass"/>
+          <include name="classCleanup"/>
+          <include name="testRemoveProspectAndVerifyTheAvailability"/>
+          <include name="testMethodCleanup"/>
+        </methods>
+      </class> <!-- com.hippo.tests.ProspectTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

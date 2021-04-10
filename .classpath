@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/commons-compress-1.18.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/curvesapi-1.03.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/javax.mail-1.4.4.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/poi-3.14.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/poi-examples-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/poi-excelant-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/poi-ooxml-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/poi-ooxml-schemas-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/poi-scratchpad-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/testng-6.7.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="/Users/sabarina/Desktop/eclipse_workspace/hippovideo_test_framework_v1/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
