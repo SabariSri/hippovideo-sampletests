@@ -31,7 +31,7 @@ public class CustomExtentReports {
 	public void stepPass(String passText) {
 		logger.log(LogStatus.PASS, passText);
 	}
-
+	
 	public void stepFail(String failText) {
 		logger.log(LogStatus.FAIL, failText);
 	}
@@ -55,5 +55,6 @@ public class CustomExtentReports {
 	public void endReport() {
 		extent.flush();
 		extent.close();
+		
 	}
 }
