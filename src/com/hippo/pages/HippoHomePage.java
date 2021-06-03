@@ -32,6 +32,7 @@ public class HippoHomePage extends TestUtils {
 		String decodedPwd = new String(decodedBytes);
 		pwdTypeIn(wPwdField, decodedPwd, "password field");
 		clickOn(wSignIn, "Sign-in button");
+		
 	}
 
 	public void signOut() {
