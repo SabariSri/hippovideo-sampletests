@@ -54,7 +54,6 @@ public class CustomExtentReports {
 
 	public void endReport() {
 		extent.flush();
-		extent.close();
-		
+		extent.close();	
 	}
 }
