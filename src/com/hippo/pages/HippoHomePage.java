@@ -31,8 +31,7 @@ public class HippoHomePage extends TestUtils {
 		byte[] decodedBytes = Base64.getDecoder().decode(DataConstants.hippoLoginPwd);
 		String decodedPwd = new String(decodedBytes);
 		pwdTypeIn(wPwdField, decodedPwd, "password field");
-		clickOn(wSignIn, "Sign-in button");
-		
+		clickOn(wSignIn, "Sign-in button");	
 	}
 
 	public void signOut() {
